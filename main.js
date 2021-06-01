@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var url = "https://api.covid19india.org/data.json"
 
-    //alert("Data maybe diffrent from live data")
+    alert("Use desktop view for better interface")
     $.getJSON(url, function(data) {
         console.log(data)
 
